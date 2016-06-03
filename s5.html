@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>test_s5.html_A demonstration of how to access an IMG element</h3>
+
+<img id="pngid-1" src="http://www.sqrt.com/linuxpenguin.gif" alt="s5.html" width="304" >
+
+<p>Click on the button to research the URL of the png. Dare You？</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="displayhere"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("pngid-1").src;
+    document.getElementById("displayhere").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
